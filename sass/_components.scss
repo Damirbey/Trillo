@@ -225,6 +225,11 @@
     &__stars{
         margin-right: auto;
         display: flex;
+        @media only screen and (max-width:$tiny-screen){
+            margin-left:-15px;
+            margin-top: -2px;
+        }
+        
         &-icon-star,
         &-icon-location{
             width:1.75rem;

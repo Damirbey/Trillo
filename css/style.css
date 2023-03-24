@@ -240,6 +240,10 @@ body {
   .overview__stars {
     margin-right: auto;
     display: flex; }
+    @media only screen and (max-width: 28.125em) {
+      .overview__stars {
+        margin-left: -15px;
+        margin-top: -2px; } }
     .overview__stars-icon-star, .overview__stars-icon-location {
       width: 1.75rem;
       height: 1.75rem;
