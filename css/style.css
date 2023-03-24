@@ -191,7 +191,7 @@ body {
         font-size: 1.2rem; } }
     @media only screen and (max-width: 28.125em) {
       .side-nav__link:link, .side-nav__link:visited {
-        font-size: 1rem; } }
+        font-size: .8rem; } }
   .side-nav__icon {
     height: 1.75rem;
     width: 1.75rem;
@@ -236,7 +236,7 @@ body {
         font-size: 1.5rem; } }
     @media only screen and (max-width: 28.125em) {
       .overview__heading {
-        font-size: 1.2rem; } }
+        font-size: 1rem; } }
   .overview__stars {
     margin-right: auto;
     display: flex; }
@@ -248,6 +248,10 @@ body {
         .overview__stars-icon-star, .overview__stars-icon-location {
           width: 1.3rem;
           height: 1.3rem; } }
+      @media only screen and (max-width: 28.125em) {
+        .overview__stars-icon-star, .overview__stars-icon-location {
+          width: 1.2rem;
+          height: 1.2rem; } }
     .overview__stars-icon-location {
       margin-right: 1rem; }
   .overview__location {

@@ -161,7 +161,7 @@
             font-size: 1.2rem;
         }
         @media only screen and (max-width:$tiny-screen){
-            font-size:1rem;
+            font-size:.8rem;
         }
 
     }
@@ -218,7 +218,7 @@
             font-size:1.5rem;
         }
         @media only screen and (max-width:$tiny-screen){
-            font-size:1.2rem;
+            font-size:1rem;
         }
     }
 
@@ -233,6 +233,10 @@
             @media only screen and (max-width:$small-phone-screen){
                 width:1.3rem;
                 height: 1.3rem;
+            }
+            @media only screen and (max-width:$tiny-screen){
+                width:1.2rem;
+                height: 1.2rem;
             }
         }
         &-icon-location{
